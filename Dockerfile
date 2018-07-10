@@ -21,4 +21,4 @@ RUN apk add --no-cache \
  && git clone https://github.com/Shougo/dein.vim.git $HOME/.cache/vimfiles/repos/github.com/Shougo/dein.vim \
  && nvim --headless +'call dein#install()' +qall
 
-ENTRYPOINT ["/usr/local/bin/nvim"]
+ENTRYPOINT ["/usr/bin/nvim"]
