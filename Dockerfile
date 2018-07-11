@@ -16,7 +16,7 @@ RUN apk add --no-cache \
     flake8-quotes \
     jedi \
  && git clone https://github.com/SpaceVim/SpaceVim.git .SpaceVim \
- && git clone https://github.com/thawk/dotspacevim.git .SpaceVim.d
+ && git clone https://github.com/thawk/dotspacevim.git .SpaceVim.d \
  && mkdir -p $HOME/.config \
  && ln -s $HOME/.SpaceVim $HOME/.config/nvim \
  && git clone https://github.com/Shougo/dein.vim.git $HOME/.cache/vimfiles/repos/github.com/Shougo/dein.vim \
