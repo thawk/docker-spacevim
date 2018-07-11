@@ -6,7 +6,7 @@ WORKDIR $HOME
 RUN apk add --no-cache \
     clang \
     clang-libs \
-    make
+    make \
     nodejs-npm \
     the_silver_searcher \
  && pip3 install \
