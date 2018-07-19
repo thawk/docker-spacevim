@@ -14,3 +14,4 @@ $ docker run -it -v $(pwd):/src thawk/neovim test.cpp
 alias dnvim='docker run -it -v $(pwd):/src thawk/neovim "$@"'
 ```
 
+也可以通过镜像中的 dvim 脚本进行调用。
