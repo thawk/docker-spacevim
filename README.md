@@ -7,11 +7,11 @@ https://hub.docker.com/r/thawk/spacevim
 ## Usage
 
 ```sh
-$ docker run -it -v $(pwd):/src thawk/neovim test.cpp
+$ docker run -it -v $(pwd):/src thawk/spacevim test.cpp
 ```
 
 ```sh
-alias dnvim='docker run -it -v $(pwd):/src thawk/neovim "$@"'
+alias dnvim='docker run -it -v $(pwd):/src thawk/spacevim "$@"'
 ```
 
 也可以通过镜像中的 dvim 脚本进行调用。
