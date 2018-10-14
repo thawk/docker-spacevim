@@ -1,0 +1,48 @@
+[[layers]]
+name = 'lang#asciidoc'
+enable = true
+
+[[layers]]
+name = 'lang#c'
+enable = true
+
+[[layers]]
+name = 'lang#clojure'
+enable = true
+
+[[layers]]
+name = 'lang#go'
+enable = true
+
+[[layers]]
+name = 'lang#haskell'
+enable = false
+
+[[layers]]
+name = 'lang#java'
+enable = true
+
+[[layers]]
+name = 'lang#javascript'
+enable = true
+
+[[layers]]
+name = 'lang#python'
+enable = true
+
+[[layers]]
+name = 'lang#toml'
+enable = true
+
+[[layers]]
+name = 'lang#vim'
+enable = true
+
+[[layers]]
+name = 'lang#xml'
+enable = true
+
+[[layers]]
+name = 'tags'
+enable = true
+
