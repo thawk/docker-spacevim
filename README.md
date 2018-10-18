@@ -4,6 +4,8 @@ A neovim with [SpaceVim](https://spacevim.org) and [my customized configuration]
 
 https://hub.docker.com/r/thawk/spacevim
 
+Based on: https://hub.docker.com/r/thawk/spacevim-base
+
 ## Usage
 
 ```sh
@@ -14,4 +16,3 @@ $ docker run -it -v $(pwd):/src thawk/spacevim test.cpp
 alias dnvim='docker run -it -v $(pwd):/src thawk/spacevim "$@"'
 ```
 
-也可以通过镜像中的 dvim 脚本进行调用。
