@@ -1,3 +1,7 @@
+# nvim with my SpaceVim configuration (https://github.com/thawk/dotspacevim)
+#
+# docker run -it -P -v "$(pwd)":/src thawk/spacevim [<files to be edited>]
+
 FROM thawk/spacevim-base:latest
 
 ARG BUILD_DATE
