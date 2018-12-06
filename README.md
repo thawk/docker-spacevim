@@ -9,10 +9,10 @@ Based on: https://hub.docker.com/r/thawk/spacevim-base
 ## Usage
 
 ```sh
-$ docker run -it -v $(pwd):/src thawk/spacevim test.cpp
+$ docker run -it --rm -v $(pwd):/src thawk/spacevim test.cpp
 ```
 
 ```sh
-alias dnvim='docker run -it -v $(pwd):/src thawk/spacevim "$@"'
+alias dnvim='docker run -it --rm -v $(pwd):/src thawk/spacevim "$@"'
 ```
 
